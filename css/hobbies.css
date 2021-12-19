@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(-135deg, #63b2e7, #a15bbd);
+    color: hsla(0, 0%, 100%, 0.966);
+    margin-right: 0;
+}
+
+.hob_container{
+display: grid;
+grid-template-columns: 1fr 0.75fr;
+grid-template-areas:"para pho"
+                    "paragra phot"
+                    "paragraph photo";
+grid-template-rows: auto;
+
+}             
+
+#image1,#image2, #image3{
+    margin:20px;
+    align-items: center;
+    /* clip-path: circle(); */
+    border-radius: 40% 40%;
+    /* padding-left: 4rem; */
+
+}
+#image1
+{
+    width: 50%;
+
+    grid-area: pho;
+
+    right: 0;
+}
+#image2{
+grid-area: phot;
+right: 0;
+
+}
+#image3{
+grid-area: photo;
+right: 0;
+
+}
+
+#paragraph1{
+    grid-area: para;
+    padding: 2rem;
+}
+#paragraph2{
+    grid-area: paragra;
+    padding: 2rem;
+
+}
+#pararaph3{
+    grid-area: paragraph;
+    padding: 2rem;
+
+}
+@media (max-width:900px) {
+   .hob_container{ 
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       margin: 0;
+
+   } 
+}
+
+

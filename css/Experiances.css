@@ -1,0 +1,33 @@
+.xpr_body{
+    font-family: 'FontAwesoome';
+    background: linear-gradient(-135deg, #63b2e7, #a15bbd);
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    font-size: larger;
+    font-weight: 600;
+}
+.xpr_body p{
+    padding: 30px 20px 0px 20px;
+}
+.oneInfoSet{
+    display: flex;
+    border-radius: 40%;
+    width: 80%;
+    height: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+    border: white;
+    border:2em;
+    margin: 50px 50px;
+    font-size: larger;
+    font-weight: 600;
+}
+#linkedin{
+    margin: 2rem 2rem;
+
+}
+#linkedin:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
