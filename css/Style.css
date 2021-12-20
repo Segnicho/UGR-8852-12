@@ -252,22 +252,6 @@ width: 70%;
         flex-wrap: wrap;
     }
    
-    /* .fixed_header{
-        position: static;
-        top:0;
-        left: 0;
-        right: 0;
-        display: block;
-        text-decoration: none;
-        width: 100%;
-        height: 100%;
-        background-image: url(istockphoto-1044575446-170667a.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    
-    } */
-
 
     .navList a{
 
