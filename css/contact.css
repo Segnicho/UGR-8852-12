@@ -82,6 +82,7 @@ form input{
 
 @media (max-width:400px){
     form input{
+        height: 1.5rem;
         width:fit-content
     }
 
