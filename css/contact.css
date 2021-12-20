@@ -2,12 +2,12 @@
     margin: 0 0;
 }
 
-.navList a{
+/* .navList a{
     background: #000000;
     color: white;
     font-weight: 600;
     font-size: x-large;
-}
+} */
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -82,7 +82,7 @@ form input{
 
 @media (max-width:400px){
     form input{
-        height: 1.5rem;
+        height: 2rem;
         width:fit-content
     }
 
