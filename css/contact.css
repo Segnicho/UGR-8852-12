@@ -3,7 +3,7 @@
 }
 
 .navList a{
-    background: #a15bbd;
+    background: #000000;
     color: white;
     font-weight: 600;
     font-size: x-large;
@@ -76,7 +76,7 @@ p > span{
     grid-area: form;
 }
 form input{
-    height: fit-content;
+    height: 2rem;
     width: 15rem;
 }
 
@@ -87,30 +87,7 @@ form input{
 
 }
 
-/* .home_footer{
-     margin: 0;
 
-    background-color: rgb(43, 39, 34);
-
-    
-}
-.footer_list{
-    
-    /* background-color: black; 
-        color: whitesmoke;
-        font-size: larger;
-        border-radius: 10%;
-        list-style: none;    
-    }
-.footerList{
-   
-    list-style: none;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; 
-} */
 #top{
     background-color: blue;
     margin: 20px 10px 20px 50px;
@@ -125,8 +102,5 @@ footer ul li a{
     background-color: blue;
     margin-left: 50px;
 }
-/* @media (min-width:1280px){
-    .contact_container{
-        /* border-top-color: #007bb5; */
-        /* margin: -3.1rem -1rem -1rem -2rem; */
+
     
