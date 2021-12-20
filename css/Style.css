@@ -38,7 +38,6 @@
 
 }
 .nav_list{
-    /* margin-right: 5rem; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -47,14 +46,12 @@
 }
 .myphoto img{
 
-    /* border-radius: 30%; */
     clip-path: circle();
     display: inline-flex;
     float: left;
     width: auto;
     padding: 1rem 1rem 1rem 1rem;
-    /* display: flex;
-    flex-wrap: wrap; */
+   
 }
 .nav{
     display: flex;
@@ -79,13 +76,6 @@
     display: none;
     margin: 1em;
 }
-
-/* @media screen and (min-width:500px) and (max-width:1360px) {
-    .nav{
-        margin:0;
-    }
-    
-} */
 
 @media screen and (max-width:1145px)  {
     .nav__hamburger{
