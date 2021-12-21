@@ -43,19 +43,20 @@
 #img1{
     grid-area: auto;
     height: 30%;
-    width: 30%;
+    /* width: 25%; */
     justify-content: center;
-    
+    border-radius: 20%;
 }
 #img2{
+    border-radius: 20%;
     justify-content: center;
-    width: 30%;
-    height:30%;
+    /* width: 25%; */
+    height: 57%;
     grid-area: auto;
 
 
 }
-@media (max-width:700px){
+@media (max-width:900px){
 
     .two_images{
         display: flex;
