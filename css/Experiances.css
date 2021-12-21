@@ -40,20 +40,18 @@
     grid-template-columns: auto auto;
     grid-template-areas: auto auto;
 }
-#img1{
+#imagg1{
     grid-area: auto;
     height: 50%;
     justify-content: center;
     border-radius: 20%;
 }
-#img2{
+#imagg2{
     border-radius: 20%;
     justify-content: center;
     height: 50%;
     grid-area: auto;
     padding: 2rem;
-
-
 }
 @media (max-width:800px){
 
@@ -65,7 +63,7 @@
 
     }
 
-    #img1,#img2{
+    #imagg1,#imagg2{
         display: flex;
     }
 }
