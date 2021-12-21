@@ -89,7 +89,34 @@ form input{
 }
 
 
+.home_footer{
+
+
+    background-color: rgb(43, 39, 34);
+
+    
+}
+.footerList{
+   
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
 #top{
+    background-color: blue;
+    margin: 10px 20px 50px;
+    margin-left: 50px;
+}
+#next{
+    background-color: blue;
+    margin: 10px 20px 50px;
+    margin-left: 50px;
+}
+
+/* #top{
     background-color: rgb(23, 23, 34);
     margin: 20px 10px 10px 50px;
     margin-left: 50px;
@@ -99,9 +126,9 @@ footer ul li a{
 }
 
 #next{
-    margin-top: 50px ;
+    margin-top: 30px ;
     background-color:rgb(255, 255, 255);
     margin-left: 50px;
 }
 
-    
+     */
