@@ -57,7 +57,11 @@
 }
 }
 .two_images{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+#imagg1,#imagg2{
+    display: flex;
 }
 
 
