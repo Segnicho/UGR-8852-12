@@ -8,6 +8,12 @@
     box-sizing: border-box;
     /* display: block; */
 }
+.active{
+    text-decoration:underline;
+    color: rgb(240, 137, 12);
+    border: red;
+    border-style: double;
+}
 
 #heading
 {
@@ -201,7 +207,7 @@
 
 .main_paragraphs{
    align-items: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     background: linear-gradient(-135deg, #63b2e7, #a15bbd);
 
     /* background-color: rgba(0, 0, 0, 0.89); */
@@ -251,7 +257,7 @@ background-color: yellow;
         width: 70%;
     }
     .main_paragraphs{
-        text-transform: uppercase;
+        text-transform: capitalize;
         background-color: rgba(0, 0, 0, 0.9);
         color: rgb(204, 223, 240);   
         padding: 1rem 1rem;
