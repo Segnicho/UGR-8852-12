@@ -56,23 +56,5 @@
     padding: 2rem;
 }
 }
-/* #two_images__div1, #two_images__div2{
-
-    margin-bottom: 5rem;
-}
 
 
-@media (max-width:1000px){
-
-    .two_images{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
-
-    #imagg1,#imagg2{
-        display: flex;
-    }
-} */
