@@ -1,5 +1,5 @@
 @media (max-width:500px) {
-    .navList a{
+    .nav__List a{
         color: white;
         font-weight: 600;
     }
