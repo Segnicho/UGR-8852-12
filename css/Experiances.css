@@ -32,6 +32,8 @@
     background-color: yellow;
 }
 
+@media (min-width:800px) {
+    
 
 .two_images{
     padding: 5rem;
@@ -53,7 +55,8 @@
     grid-area: auto;
     padding: 2rem;
 }
-#two_images__div1, #two_images__div2{
+}
+/* #two_images__div1, #two_images__div2{
 
     margin-bottom: 5rem;
 }
@@ -72,4 +75,4 @@
     #imagg1,#imagg2{
         display: flex;
     }
-}
+} */
