@@ -51,7 +51,7 @@
     justify-content: center;
     align-items: center;
 }
-.myphoto img{
+.nav__myphoto img{
 
     clip-path: circle();
     display: inline-flex;
@@ -103,13 +103,13 @@
     }
 }
 
-.navList a{
+.nav__List a{
     background: #a15bbd;
     color: white;
     font-weight: 600;
     font-size: x-large;
 }
-.navList{
+.nav__List{
     flex-wrap: wrap;
     color: white;
     margin: 0 0;
@@ -131,7 +131,7 @@
     }
 }
 
-.welcome{
+.welcomeParagraph__welcome{
     padding-top: 3rem;
     text-align: center;
     width: 300px;
@@ -145,7 +145,7 @@
     background-image:url('/UGR-8852-12/images/istockphoto-1251629816-170667a.jpg');   
 }
 
-.paragraph_aside{
+.welcomeParagraph__paragraph_aside{
  
     
     padding: 1rem 4%;
@@ -161,7 +161,7 @@
 }
 @media (min-width:1200px) {
  
-    .paragraph_aside{
+    .welcomeParagraph__paragraph_aside{
     flex-wrap: wrap;
 
     padding: 3rem 3remS;
@@ -235,7 +235,7 @@ width: 70%;
     }
    
 
-    .navList a{
+    .nav__List a{
 
     background: hsl(282, 92%, 5%);
     color: white;
@@ -252,7 +252,7 @@ background-color: yellow;
         align-items: center;
         
     }
-    .myphoto img{
+    .nav__myphoto img{
         clip-path: circle();
         height: 175px;
         width: 70%;
