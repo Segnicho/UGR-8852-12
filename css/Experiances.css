@@ -31,3 +31,17 @@
     cursor: pointer;
     background-color: yellow;
 }
+
+
+.two_images{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: auto auto;
+}
+#img1{
+    grid-area: auto;
+}
+#img2{
+    grid-area: auto;
+    
+}
