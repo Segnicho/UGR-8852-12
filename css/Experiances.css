@@ -34,14 +34,33 @@
 
 
 .two_images{
+    padding: 5rem;
     display: grid;
+    justify-content: center;
     grid-template-columns: auto auto;
     grid-template-areas: auto auto;
 }
 #img1{
     grid-area: auto;
+    height: 30%;
+    width: 30%;
+    justify-content: center;
+    
 }
 #img2{
+    justify-content: center;
+    width: 30%;
+    height:30%;
     grid-area: auto;
-    
+
+
+}
+@media (max-width:700px){
+
+    .two_images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
