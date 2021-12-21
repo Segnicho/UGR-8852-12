@@ -42,17 +42,23 @@
 }
 #imagg1{
     grid-area: auto;
-    height: 50%;
+    /* height: 50%; */
     justify-content: center;
     border-radius: 20%;
 }
 #imagg2{
     border-radius: 20%;
     justify-content: center;
-    height: 50%;
+    /* height: 50%; */
     grid-area: auto;
     padding: 2rem;
 }
+#two_images__div1, #two_images__div2{
+
+    margin-bottom: 5rem;
+}
+
+
 @media (max-width:1000px){
 
     .two_images{
