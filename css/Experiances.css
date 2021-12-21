@@ -43,6 +43,7 @@
     grid-template-areas: auto auto;
 }
 #imagg1{
+    height: 50%;
     grid-area: auto;
     justify-content: center;
     border-radius: 20%;
@@ -56,12 +57,14 @@
     padding: 2rem;
 }
 }
-.two_images{
-    display: flex;
-    flex-wrap: wrap;
+@media( max-width:800px)
+ {
+    .two_images{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
-#imagg1,#imagg2{
-    display: flex;
-}
+
 
 
