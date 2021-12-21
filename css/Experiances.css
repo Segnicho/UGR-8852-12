@@ -42,26 +42,30 @@
 }
 #img1{
     grid-area: auto;
-    height: 30%;
-    /* width: 25%; */
+    height: 50%;
     justify-content: center;
     border-radius: 20%;
 }
 #img2{
     border-radius: 20%;
     justify-content: center;
-    /* width: 25%; */
-    height: 57%;
+    height: 50%;
     grid-area: auto;
+    padding: 2rem;
 
 
 }
-@media (max-width:900px){
+@media (max-width:800px){
 
     .two_images{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
+
     }
 
+    #img1,#img2{
+        display: flex;
+    }
 }
