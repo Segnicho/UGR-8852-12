@@ -10,9 +10,9 @@
 }
 .active{
     text-decoration:underline;
-    color: rgb(240, 137, 12);
-    border: red 2px;
-    border-radius: 5px;
+    color: rgb(247, 184, 107);
+    border: hsl(0, 100%, 50%) 2px;
+    border-radius: 10px;
     border-style: double;
 }
 
