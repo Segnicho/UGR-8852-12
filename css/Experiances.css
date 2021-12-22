@@ -23,6 +23,9 @@
     font-size: larger;
     font-weight: 600;
 }
+.nav{
+    background-color: black;
+}
 #linkedin{
     margin: 2rem 2rem;
 
@@ -40,15 +43,6 @@
     padding: 2rem;
 }
 
-@media( max-width:800px)
- {
-    .two_images{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
 
 
 
