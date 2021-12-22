@@ -27,7 +27,17 @@ h1{
     padding: 4rem;
 }
 
+@media (min-width:1000) {
 
+    .contnr{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       grid-gap: 3rem;
+    }
+    /* .contnr__section{
+     
+    } */
+}
 
 
 
