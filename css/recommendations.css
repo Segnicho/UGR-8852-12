@@ -31,7 +31,7 @@ h1{
 
     .contnr{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
        grid-gap: 3rem;
     }
    .contnr__section{
