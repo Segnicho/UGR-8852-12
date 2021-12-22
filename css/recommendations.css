@@ -34,9 +34,9 @@ h1{
         grid-template-columns: 1fr 1fr;
        grid-gap: 3rem;
     }
-    /* .contnr__section{
-     
-    } */
+   .contnr__section{
+       grid-area: auto;
+   }
 }
 
 
